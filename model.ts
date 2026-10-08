@@ -26,5 +26,5 @@ function completeTask(tasks: Task[], id: number): Task[] {
 
 // Return only the tasks matching a given status.
 function filterByStatus(tasks: Task[], status: TaskStatus): Task[] {
-  return tasks.filter((t) => t.status === statu);
+  return tasks.filter((t) => t.status === status);
 }
